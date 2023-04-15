@@ -1,0 +1,173 @@
+<html>
+<head>
+    <title>NoteX</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 0 auto;
+        }
+
+        .header {
+            height: 80px;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            margin-left: 20px;
+        }
+
+        .nav {
+            display: flex;
+            margin-right: 20px;
+        }
+
+        .nav-item {
+            font-size: 18px;
+            color: white;
+            margin-left: 20px;
+        }
+
+        .hero {
+            height: 600px;
+            background-image: url("noteX.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        .hero-title {
+            font-size: 64px;
+            font-weight: bold;
+            color: #ff6600;
+            /*color: #ff6600;*/
+        }
+
+        .hero-subtitle {
+            font-size: 32px;
+            color: #0066CC;
+            margin-top: 20px;
+        }
+
+        .hero-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff6600;
+            border-radius: 10px;
+            font-size: 24px;
+            color: White;
+            text-decoration: none;
+            margin-top: 40px;
+        }
+
+        .features {
+            padding: 40px 0;
+        }
+
+        .features-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .features-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .features-item {
+            width: 30%;
+            margin-top: 40px;
+        }
+        .features-item-icon {
+            font-size: 64px;
+            color: #ff6600;
+        }
+        .features-item-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .features-item-desc {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .footer {
+            height: 80px;
+            background-color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .footer-text {
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">NoteX</div>
+        <div class="nav">
+            <div class="nav-item">Home</div>
+            <div class="nav-item">Features</div>
+            <div class="nav-item">Download</div>
+            <div class="nav-item">Contact</div>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <div class="hero-title">NoteX</div>
+            <div class="hero-subtitle">The best pure text and Markdown editor</div>
+            <a href="#" class="hero-button">Download Now</a>
+        </div>
+    </div>
+    <div class="features">
+        <div class="features-title">Why NoteX?</div>
+        <div class="features-list">
+            <div class="features-item">
+                <div class="features-item-icon">📝</div>
+                <div class="features-item-title">Simple and Elegant</div>
+                <div class="features-item-desc">NoteX provides you with the most simple and elegant interface and
+                    functionality. You can create, edit and save pure text and Markdown files with ease.
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="features-item-icon">🔄</div>
+                <div class="features-item-title">Switch and Preview</div>
+                <div class="features-item-desc">NoteX supports pure text and Markdown two formats. You can freely switch
+                    and preview different effects.
+                </div>
+            </div>
+            <div class="features-item">
+                <div class="features-item-icon">💾</div>
+                <div class="features-item-title">Save and Backup</div>
+                <div class="features-item-desc">NoteX has auto-save, local backup, and file export features. You can
+                    keep your text files safe and convenient.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">© 2023 by NoteX. All rights reserved.</div>
+    </div>
+</div>
+</body>
+</html>
